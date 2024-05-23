@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 30px;
+}
+.text{
+    gap: 50px;
+    padding: 20px;
+}
+p{
+    margin: 25px 0px;
+}
+main h2{
+    margin: 25px 0px;
+}
+.yil{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    font-size: 25px;
+}
+.son{
+    color: white;
+    background-color: rgb(6, 6, 40);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: medium;
+}

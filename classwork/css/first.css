@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+nav{
+  padding: 40px 200px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav ul{
+  display: flex;
+  gap: 30px;
+}
+ 
+/* psevda class  and psevda elements */
+
+nav ul a {
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+nav ul a:hover{
+  color: white;
+  background-color: crimson;
+  padding: 5px 10 px;
+  border-radius: 5px;
+}
+nav ul a:active{
+  background-color:green;
+}
+.main-title{
+  margin: 20px 0px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800px;
+  font-family: sans-serif;
+}
+section{
+  padding: 20px;
+}
+section p:nth-child(1){
+  margin: 20px 0px;
+  font-size: 35px;
+  text-align: center;
+}
+
+section p:nth-child(2){
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  word-spacing: 10px;
+}
+input{
+  padding:  10px 20px;
+  background: rgb(232, 230, 230);
+  outline: none;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  color: green;
+  font-weight: 600;
+}
+
+input::placeholder{
+  color: crimson;
+}
+input :focus{
+  background-color: green;
+  color: yellow;
+}
+.linear{
+  height: 600px;
+  background: linear-gradient(40deg,crimson,green,yellow,blue);
+  border-radius: 20px;
+}
+.linear:hover{
+  background: linear-gradient(120deg,crimson,green,yellow,blue);
+}
+
+.radial{
+  width: 70%;
+  margin: 0px auto;
+  height: 600px;
+  border-radius: 40%;
+  background: radial-gradient(red,green,yellow);
+}
+.shadows{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.shadow{
+  width: 30%;
+  height: 500px;
+  border: 1px solid rgb(red, green, blue);
+  box-shadow:inset 5px 5px 20px crimson;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.shadow p{
+  text-shadow:5px 5px 5px crimson; 
+  color: crimson;
+  font-family: sans-serif;
+}
